@@ -17,3 +17,12 @@ if (isFavorite === true) {
 } else {
   console.log(`I recently read ${title}.`);
 };
+
+var books = ["The Bible", "On Writing", "The Shining", "A Wild Sheep Chase", "The Wisdom of Uncertainty"];
+var thirdBook = books[2];
+
+
+var belowTwoHundred = [23, 76, 167, 0.1, -5, 1, 32, 12, 87.8, 10, 13, 98];
+var fifthElement = belowTwoHundred[4];
+console.log(fifthElement);
+
