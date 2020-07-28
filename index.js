@@ -26,8 +26,15 @@ var thirdBook = books[2];
 
 var belowTwoHundred = [23, 76, 167, 0.1, -5, 1, 32, 12, 87.8, 10, 13, 98];
 var fifthElement = belowTwoHundred[4];
-console.log(fifthElement);
 
-//
+//objects
+var dictionary = {
+  name: "Webster's",
+  hasThesaurus: false,
+};
+
+dictionary.pageCount = 720;
+console.log(dictionary);
+
 
 
